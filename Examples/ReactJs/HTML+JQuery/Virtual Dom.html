@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML + Virtual Dom</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function () {
+
+      function DateTime() {
+        var currentDate = new Date();
+        return "<span>" + currentDate.getDay() + "." + currentDate.getMonth() + "." + currentDate.getFullYear() + " " + currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds() + "</span>";
+      }
+
+      var interval = setInterval(function(){
+        $("#time").html(DateTime());
+      }, 1000);
+    });
+  </script>
+</head>
+
+<body>
+  <ul>
+    <li id="time">
+      
+    </li>
+  </ul>
+</body>
+
+</html>

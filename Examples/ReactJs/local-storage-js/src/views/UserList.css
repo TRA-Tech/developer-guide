@@ -1,0 +1,10 @@
+.user-table {
+    width: 400px;
+    font-weight: normal;
+    font-size: 13px;
+    border-spacing: 0;
+}
+.user-table th, .user-table td {
+    text-align: left;
+    padding-bottom: 4px;
+}

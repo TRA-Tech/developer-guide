@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML + State Example</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function () {
+      $("#bt1").on("click", function () {
+        var value = parseInt($("#it1").val());
+        $("#it1").val(value + 1);
+      });
+      $("#bt2").on("click", function () {
+        var value = parseInt($("#it2").val());
+        $("#it2").val(value + 1);
+      });
+      $("#bt3").on("click", function () {
+        var value = parseInt($("#it3").val());
+        $("#it3").val(value + 1);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <ul>
+    <li>Item 1: <input type="text" id="it1" value="0"><button id="bt1">Add</button></li>
+    <li>Item 2: <input type="text" id="it2" value="0"><button id="bt2">Add</button></li>
+    <li>Item 3: <input type="text" id="it3" value="0"><button id="bt3">Add</button></li>
+  </ul>
+</body>
+
+</html>

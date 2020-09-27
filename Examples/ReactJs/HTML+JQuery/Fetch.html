@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML + Fetch</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(function () {
+
+      $("#loadData").on("click", function () {
+
+        $.get("https://localhost:44317/api/users/getall", function (data) {
+
+          var html = "";
+          for (var i = 0; i < data.length; i++) {
+
+            html +=
+              "<tr>" +
+              "<td>" + data[i].id + "</td>" +
+              "<td>" + data[i].firstName + "</td>" +
+              "<td>" + data[i].lastName + "</td>" +
+              "<td>" + data[i].username + "</td>" +
+              "<td>" + data[i].password + "</td>" +
+              "<td>" + data[i].email + "</td>" +
+              "<td>" + data[i].status + "</td>" +
+              "</tr>";
+          }
+          $("#itemList").html(html);
+
+        }, "json");
+
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <div>
+    <button id="loadData"> Load Data </button>
+    <table>
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>First Name</td>
+          <td>Last Name</td>
+          <td>Username</td>
+          <td>Password</td>
+          <td>E-Mail</td>
+          <td>Status</td>
+        </tr>
+      </thead>
+      <tbody id="itemList">
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

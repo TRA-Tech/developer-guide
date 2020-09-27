@@ -1,0 +1,11 @@
+.add-user-table {
+    border-spacing: 0;
+    width: 400px;
+}
+.add-user-table td {
+    padding-bottom: 15px;
+}
+
+.add-user-table button {
+    margin-left: 108px;
+}

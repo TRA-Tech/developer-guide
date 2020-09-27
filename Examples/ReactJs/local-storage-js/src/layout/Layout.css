@@ -1,0 +1,40 @@
+#site-header {
+    position: fixed;
+    overflow: visible!important;
+    z-index: 1001;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    width: 100%;
+    height: 50px;
+}
+.float-left {
+float: left;
+}
+.menu-item, .menu-item a {
+    display: inline-block;
+    height: 100%;
+    line-height: 46px;
+}
+.menu-item a {
+    padding: 0px 20px;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
+.menu-sperator {
+    height: 30px;
+    width: 1px;
+    background-color: black;
+    margin-top: 10px;
+}
+#content {
+    padding-top: 50px;
+    display: inline-block;
+    padding-left:40px;
+}

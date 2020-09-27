@@ -1,0 +1,14 @@
+C:\hello-docker\hello-docker\bin\Debug\netcoreapp2.2\hello-docker.deps.json
+C:\hello-docker\hello-docker\bin\Debug\netcoreapp2.2\hello-docker.runtimeconfig.json
+C:\hello-docker\hello-docker\bin\Debug\netcoreapp2.2\hello-docker.runtimeconfig.dev.json
+C:\hello-docker\hello-docker\bin\Debug\netcoreapp2.2\hello-docker.dll
+C:\hello-docker\hello-docker\bin\Debug\netcoreapp2.2\hello-docker.pdb
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.csprojAssemblyReference.cache
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.csproj.CoreCompileInputs.cache
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.RazorAssemblyInfo.cache
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.RazorAssemblyInfo.cs
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.AssemblyInfoInputs.cache
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.AssemblyInfo.cs
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.RazorTargetAssemblyInfo.cache
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.dll
+C:\hello-docker\hello-docker\obj\Debug\netcoreapp2.2\hello-docker.pdb
